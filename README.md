@@ -13,7 +13,8 @@ twitter korean text elasticsesarch plugin
 
 | plugin-version | elasticsearch | twitter korean text | java | install path                                                                 |
 |----------------|---------------|---------------------|------|------------------------------------------------------------------------------|
-| 0.0.1          | 5.3.0         | 4.4                 | 1.7  | https://github.com/inyl/tkt_elasticsearch/raw/master/build/elasticsearch.zip |
+| 0.0.2          | 5.3.2         | 4.4                 | 1.7  | https://github.com/inyl/tkt_elasticsearch/raw/master/build/elasticsearch.zip |
+| 0.0.1          | 5.3.0         | 4.4                 | 1.7  | https://github.com/inyl/tkt_elasticsearch/raw/v0.0.1/build/elasticsearch.zip |
 
 
 ## 설치방법
@@ -139,6 +140,6 @@ mvn clean build
 사용하고 있는 elasticsearch를 중지시키고 새로 만들어진 파일을 install합니다.
 ```
 cd {elasticsearch dir}/bin
-./elasticsearch-plugin install file://path/to/build/elasticsearch.zip
+./elasticsearch-plugin install file:///path/to/build/elasticsearch.zip
 ```
 elasticsearch를 다시 기동시켜 제대로 플러그인을 인식하고 기동되는지 확인합니다.
