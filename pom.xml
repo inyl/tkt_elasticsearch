@@ -86,7 +86,7 @@
                 <version>2.5.3</version>
                 <configuration>
                     <descriptor>src/assembly/dep.xml</descriptor>
-                    <finalName>twitter_korean_tokenizer</finalName>
+                    <finalName>elasticsearch</finalName>
                     <appendAssemblyId>false</appendAssemblyId>
                     <outputDirectory>${basedir}/build/</outputDirectory>
                 </configuration>
