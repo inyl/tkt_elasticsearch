@@ -10,6 +10,7 @@ twitter korean text elasticsesarch plugin
 는 구버전에만 호환되어 elasticsearch 최신버전과 호환되게 수정하였습니다.
 
 호환표와 버전은 다음을 참조 해주세요
+
 | plugin-version | elasticsearch | twitter korean text | java | install path                                                                 |
 |----------------|---------------|---------------------|------|------------------------------------------------------------------------------|
 | 0.0.1          | 5.3.0         | 4.4                 | 1.7  | https://github.com/inyl/tkt_elasticsearch/raw/master/build/elasticsearch.zip |
