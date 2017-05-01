@@ -118,6 +118,13 @@ elasticsearch가 플러그인이 버전이 완전히 매칭되지 않으면 플�
 git clone git@github.com:inyl/tkt_elasticsearch.git
 cd tkt_elasticsearch/
 ```
+
+pom.xml버전을 열어서 `<elasticsearch.version>`을 사용하고자 하는 elasticsearch버전으로 수정합니다.<br/>
+```xml
+<elasticsearch.version>5.3.0</elasticsearch.version>
+```
+변경후에 class파일 오류가 존재하지 않는지 확인합니다.
+
 /src/main/resources/plugin-descriptor.properties 파일을 열어서 `elasticsearch.version` 을 사용중인 elasticsearch 버전으로 변경합니다.
 
 ```
