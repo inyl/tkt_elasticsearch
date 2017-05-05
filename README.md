@@ -13,7 +13,8 @@ twitter korean text elasticsesarch plugin
 
 | plugin-version | elasticsearch | twitter korean text | java | install path                                                                 |
 |----------------|---------------|---------------------|------|------------------------------------------------------------------------------|
-| 0.0.2          | 5.3.2         | 4.4                 | 1.7  | https://github.com/inyl/tkt_elasticsearch/raw/master/build/elasticsearch.zip |
+| 0.0.3          | 5.4.0         | 4.4                 | 1.7  | https://github.com/inyl/tkt_elasticsearch/raw/master/build/elasticsearch.zip |
+| 0.0.2          | 5.3.2         | 4.4                 | 1.7  | https://github.com/inyl/tkt_elasticsearch/raw/v0.0.2/build/elasticsearch.zip |
 | 0.0.1          | 5.3.0         | 4.4                 | 1.7  | https://github.com/inyl/tkt_elasticsearch/raw/v0.0.1/build/elasticsearch.zip |
 
 
