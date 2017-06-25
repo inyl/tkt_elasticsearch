@@ -13,7 +13,8 @@ twitter korean text elasticsesarch plugin
 
 | plugin-version | elasticsearch | twitter korean text | java | install path                                                                 |
 |----------------|---------------|---------------------|------|------------------------------------------------------------------------------|
-| 0.0.3          | 5.4.0         | 4.4                 | 1.7  | https://github.com/inyl/tkt_elasticsearch/raw/master/build/elasticsearch.zip |
+| 0.0.4          | 5.4.2         | 4.4                 | 1.7  | https://github.com/inyl/tkt_elasticsearch/raw/master/build/elasticsearch.zip |
+| 0.0.3          | 5.4.0         | 4.4                 | 1.7  | https://github.com/inyl/tkt_elasticsearch/raw/v0.0.3/build/elasticsearch.zip |
 | 0.0.2          | 5.3.2         | 4.4                 | 1.7  | https://github.com/inyl/tkt_elasticsearch/raw/v0.0.2/build/elasticsearch.zip |
 | 0.0.1          | 5.3.0         | 4.4                 | 1.7  | https://github.com/inyl/tkt_elasticsearch/raw/v0.0.1/build/elasticsearch.zip |
 
@@ -123,14 +124,14 @@ cd tkt_elasticsearch/
 
 pom.xml버전을 열어서 `<elasticsearch.version>`을 사용하고자 하는 elasticsearch버전으로 수정합니다.<br/>
 ```xml
-<elasticsearch.version>5.3.0</elasticsearch.version>
+<elasticsearch.version>5.4.2</elasticsearch.version>
 ```
 변경후에 class파일 오류가 존재하지 않는지 확인합니다.
 
 /src/main/resources/plugin-descriptor.properties 파일을 열어서 `elasticsearch.version` 을 사용중인 elasticsearch 버전으로 변경합니다.
 
 ```
-elasticsearch.version=5.2.2
+elasticsearch.version=5.4.2
 
 ```
 다시 프로젝트를 빌드합니다.
