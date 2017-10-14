@@ -1,5 +1,7 @@
 # tkt_elasticsearch
 
+[![Build Status](https://travis-ci.org/inyl/tkt_elasticsearch.svg?branch=master)](https://travis-ci.org/inyl/tkt_elasticsearch)
+
 twitter korean text elasticsesarch plugin
 
 
